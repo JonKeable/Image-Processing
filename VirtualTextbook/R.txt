@@ -1,0 +1,1 @@
+To reduce the so called “red eye” effect in photographs the program must look at each pixel in turn and decide whether it is red or not. To decide this a tolerance is used, where a pixel with the red value above some threshold but the green and blue values below some other threshold is considered red. This only works where pixels are stored in RGB format.
